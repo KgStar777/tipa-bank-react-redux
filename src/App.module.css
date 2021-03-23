@@ -1,0 +1,30 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.App button {
+  padding: 0 10px;
+  margin: 0 10px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  transition: background .3s ease-in-out;
+  border: none;
+}
+.App button:hover {
+  background-color: rgb(25, 220, 223);
+}
+
+.BtnWrapper {
+  align-items: center;
+  justify-content: center;
+}
+
+
