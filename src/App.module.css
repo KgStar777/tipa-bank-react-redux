@@ -27,4 +27,34 @@
   justify-content: center;
 }
 
+.Compose {
+  display: flex;
+  justify-content: center;
+}
 
+.Customer {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 2rem;
+  /*padding: 0 10px;*/
+}
+
+.CustomerNull {
+  display: flex;
+  margin: 10px;
+  font-size: 2rem;
+  color: dimgrey;
+}
+
+.Delete {
+  margin-left: 25px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  transition: all ease-in-out .2s;
+}
+.Delete:hover {
+  background-color: rgba(255, 0, 0, .6);
+}
